@@ -1,4 +1,5 @@
 """Python Package setup."""
+
 from __future__ import absolute_import
 
 from setuptools import setup
@@ -18,7 +19,7 @@ def readme():
 
 setup(
     name="uom",
-    version="0.6.2",
+    version="0.6.7",
     description="Unit of Measure conversion tool",
     long_description=readme(),
     long_description_content_type="text/markdown",
@@ -34,6 +35,8 @@ setup(
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
         "Topic :: Scientific/Engineering",
         "Topic :: Scientific/Engineering :: Information Analysis",
     ],

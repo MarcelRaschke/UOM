@@ -37,6 +37,7 @@ UNIT_ALIAS_DICT = {
     "KFT.LBF": "1000 lbf.ft",
     "Kft.lbs": "1000 lbf.ft",
     "Klbf": "1000 lbf.ft",
+    "ft.lbf": "lbf.ft",
     "M": "m",
     "M3M2": "m",
     "METER": "m",
@@ -83,6 +84,7 @@ UNIT_ALIAS_DICT = {
     "lbm/galUS": "lbm/gal[US]",
     "1000 kgf": "Mgf",
     "KKGF": "Mgf",
+    "tf": "Mgf",
     "v": "V",
     "VOLT": "V",
     "Volts": "V",
@@ -107,7 +109,7 @@ UNIT_ALIAS_DICT = {
     "°F": "degF",
     "RPM": "rpm",
     "KLBF": "klbf",
-    "KFLB": "klbf",
+    "KFLB": "klbf.ft",  # WITS thousand foot-pounds (torque)
     "G": "gn",
     "G's": "gn",
     "hr": "h",
@@ -124,7 +126,6 @@ UNIT_ALIAS_DICT = {
     "PSIA": "psi",
     "psia": "psi",
     "KPSI": "kpsi",
-    "ft.lbf": "lbf.ft",
     "in.lbf": "lbf.in",
     "FLBF": "lbf.in",
     "ft-lbs": "lbf.in",
@@ -162,10 +163,13 @@ UNIT_ALIAS_DICT = {
     "degreesCelsius": "degC",
     "KNM": "kN.m",
     "KGM3": "kg/m3",
-    "KDN": "kdyne",
+    "KDN": "10 kN",  # WITS kilo deca Newton
     "RPG": "rev/gal[US]",
     "0.01 m3/m3": "0.01 bbl/bbl",
     "0.001/(ohm.m)": "mS",
+    "MMSCFD": "1E6 ft3/d",
+    "MMscfd": "1E6 ft3/d",
+    "mmscfd": "1E6 ft3/d",
 }
 
 
